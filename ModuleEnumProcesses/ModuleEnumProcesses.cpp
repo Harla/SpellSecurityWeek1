@@ -30,7 +30,7 @@ int PrintModules(DWORD processID)
 
 	if (EnumProcessModules(hProcess, hMods, sizeof(hMods), &cbNeeded))
 	{
-		c++;
+		c++;//Counter variable
 		for (i = 0; i < (cbNeeded / sizeof(HMODULE)); i++)
 		{
 			TCHAR szModName[MAX_PATH];
