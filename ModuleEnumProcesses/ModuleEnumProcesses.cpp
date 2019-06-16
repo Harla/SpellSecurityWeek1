@@ -6,7 +6,7 @@
 #include "pch.h"
 // To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
 // and compile with -DPSAPI_VERSION=1
-int c = 0;//Initialising counter variable to count only processes with modules
+int c = 0;//Initialising counter variable to count only processes with one or more modules
 int PrintModules(DWORD processID)
 {
 	HMODULE hMods[1024];
