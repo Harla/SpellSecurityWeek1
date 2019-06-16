@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <psapi.h>
 #include<iostream>
-
+#include "pch.h"
 // To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
 // and compile with -DPSAPI_VERSION=1
 int c = 0;
