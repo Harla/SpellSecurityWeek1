@@ -80,7 +80,7 @@ int main(void)
 
 	std::string sError;
 
-	// Print the name and process identifier for each process.
+	// Print the name and process identifier for each process
 
 	for (i = 0; i < cProcesses; i++)
 	{
