@@ -6,7 +6,6 @@
 // To ensure correct resolution of symbols, add Psapi.lib to TARGETLIBS
 // and compile with -DPSAPI_VERSION=1
 int c = 0;
-
 int PrintProcessNameAndID(DWORD processID, std::string &sError)
 {
 	TCHAR szProcessName[MAX_PATH] = TEXT("<unknown>");
