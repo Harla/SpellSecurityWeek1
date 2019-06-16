@@ -25,5 +25,3 @@ extern "C"	__declspec(dllexport) float MyDll::divide(int a, int b)
 			return a / b;
 	}
 		
-
-
