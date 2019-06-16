@@ -54,7 +54,7 @@ int main()
 	std::cout << "The difference is : " << fp2(a, b);
 	std::cout << "The product is :" << fp3(a, b);
 	std::cout << "The division is : " << fp4(a, b);
-
+	
 	FreeLibrary(hInst);
 	return 0;
 }
