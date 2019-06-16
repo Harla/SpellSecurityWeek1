@@ -5,7 +5,6 @@
 #include "MyDll.h"
 #include<iostream>
 
-
 extern "C" __declspec(dllexport)  int  MyDll::add(int a, int b)
 	{
 		return a + b;
