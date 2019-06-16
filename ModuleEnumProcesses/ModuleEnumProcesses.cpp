@@ -78,6 +78,6 @@ int main(void)
 	{
 		PrintModules(aProcesses[i]);
 	}
-	std::cout << "The total number of processes with modules : "<<c <<"Total is : "<<cProcesses;
+	std::cout << "The total number of processes with modules :  "<<c <<"   Total is : "<<cProcesses;
 	return 0;
 }
