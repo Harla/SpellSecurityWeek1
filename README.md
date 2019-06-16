@@ -4,3 +4,4 @@
 3. Process Modules Enumeration
 4. Created a simple DLL and used it in a Client Project
 5. Debugging
+6. Creating a new RegistryKey in VM VirtualBox
