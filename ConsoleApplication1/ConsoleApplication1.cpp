@@ -73,7 +73,6 @@ int main(void)
 
 	}
 
-
 	// Calculate how many process identifiers were returned.
 
 	cProcesses = cbNeeded / sizeof(DWORD);
