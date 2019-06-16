@@ -19,7 +19,7 @@ HKEY OpenRegistryKey(HKEY hRootKey, const wchar_t* strSubKey)
 	
 	if (ERROR_FILE_NOT_FOUND == lError)
 	{
-		//Create a key
+		//Create a new key
 		lError = RegCreateKeyEx(hRootKey, strSubKey, NULL, NULL, REG_OPTION_NON_VOLATILE, KEY_ALL_ACCESS, NULL, &hKey, NULL);
 
 	}
