@@ -7,7 +7,7 @@
 
 extern "C" __declspec(dllexport)  int  MyDll::add(int a, int b)
 	{
-		return a + b;
+		return a + b; 
 	}
 extern "C" __declspec(dllexport) int  MyDll::subtract(int a, int b)
 	{
